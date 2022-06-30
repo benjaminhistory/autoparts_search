@@ -15,7 +15,7 @@ bot.command('start', async (ctx) => {
     try {
         await ctx.replyWithHTML('<b>Добро пожаловать в главное меню!</b>', Markup.inlineKeyboard(
             [
-                [Markup.button.callback('Ввести артикул товара', 'button_article')]
+                [Markup.button.callback('Ввести артикул товараa', 'button_article')]
             ]
         ))
     } catch (e) {
